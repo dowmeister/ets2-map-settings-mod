@@ -1,0 +1,76 @@
+SiiNunit
+{
+ui_blend_window : _nameless.2680.C838 {
+ clip_children: true
+ blend_y_shift: -1100
+ window_handler: _nameless.2667.5850
+ keep_aspect: center
+ fitting: false
+ my_children: 2
+ my_children[0]: _nameless.2666.FFA0
+ my_children[1]: _nameless.2669.BC40
+ coords_l: 5252
+ coords_r: 1188
+ coords_t: &430b0001
+ coords_b: 0
+ area_l: 5252
+ area_r: 1188
+ area_t: &430b0001
+ area_b: 0
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: null
+}
+
+screen_links_hdl : _nameless.2667.5850 {
+ window_link: _nameless.2680.C838
+}
+
+ui::text : _nameless.2666.FFA0 {
+ text: "<offset hshift=-50><img src=/material/ui/window/link_bcg.mat><ret><offset hshift=462><img src=/material/ui/window/link_bcg.mat left=1 right=0.1>"
+ coords_l: 257
+ coords_r: 1183
+ coords_t: 134
+ coords_b: 6
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.2680.C838
+}
+
+ui::button_row : _nameless.2669.BC40 {
+ row_align: center
+ label_indent: 5
+ item_distance: 20
+ min_item_width: 0
+ value_list: ""
+ id_list: ""
+ list_delimiter: "~~"
+ look_template: btn.screen_link
+ button_type: normal
+ p_pml_as_reference: false
+ fitting: false
+ my_children: 0
+ coords_l: 260
+ coords_r: 1180
+ coords_t: 119
+ coords_b: 19
+ area_l: 260
+ area_r: 1180
+ area_t: 119
+ area_b: 19
+ id: 100
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.2680.C838
+}
+
+}

@@ -1,0 +1,55 @@
+SiiNunit
+{
+cinematic_camera: _nameless.cinematic.camera {
+cameras: 1
+cameras[0]: _nameless.camera0
+
+animations: 1
+animations[0]: _nameless.camera.animation.info0
+
+transitions: 2
+transitions[0]: _nameless.transition.info0
+transitions[1]: _nameless.transition.info1
+}
+
+orbit_camera: _nameless.camera0 {
+name: "cameraShape1"
+camera_fov: 3100.00001329
+roll: 0
+}
+
+camera_animation_info: _nameless.camera.animation.info0 {
+camera_index: 0
+frame_count: 4
+frame_duration: 4.166666667
+positions: 5
+positions[0]: ( -5.216032667, 0.6213537005, -12.75030121 )
+positions[1]: ( -6.773623416, 0.6078031469, -12.00313765 )
+positions[2]: ( -8.223565403, 0.6049754513, -11.06744752 )
+positions[3]: ( -9.538945281, 0.619391537, -9.954378953 )
+positions[4]: ( -10.69461226, 0.6568798903, -8.67683832 )
+aims: 5
+aims[0]: ( 516.387234, 164.3273691, 1225.152811 )
+aims[1]: ( 670.5887182, 162.7994941, 1149.940845 )
+aims[2]: ( 814.1329749, 160.1048126, 1056.336903 )
+aims[3]: ( 944.3555828, 155.6458199, 945.3694899 )
+aims[4]: ( 1058.766614, 148.8686209, 818.2697652 )
+}
+
+transition_info: _nameless.transition.info0 {
+texture: "/material/ui/white.mat"
+color: (0, 0, 0)
+duration: 0.4
+type: 0
+animation_index: 0
+}
+
+transition_info: _nameless.transition.info1 {
+texture: "/material/ui/white.mat"
+color: (0, 0, 0)
+duration: 0.4
+type: 1
+animation_index: 0
+}
+
+}
